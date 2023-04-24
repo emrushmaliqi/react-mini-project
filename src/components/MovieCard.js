@@ -7,7 +7,7 @@ function MovieCard({ id, title, poster_path, vote_average }) {
       <Link to={`/movie/${id}`}>
         <img
           src={`https://image.tmdb.org/t/p/w500/${poster_path}`}
-          alt="movie"
+          alt="movie poster"
           className="card-img"
         />
       </Link>

@@ -64,7 +64,7 @@ code {
   padding: 10px 300px;
 }
 
-.navbar a {
+a {
   text-decoration: none;
   color: black;
 }
@@ -103,4 +103,19 @@ code {
 .no-movies-found {
   margin: 300px auto;
   width: 300px;
+}
+
+.to-movies-heading {
+  text-align: center;
+  margin: 100px 0;
+}
+
+.home p,
+.about p {
+  margin-bottom: 28px;
+}
+
+.about h1 {
+  text-align: center;
+  margin-bottom: 50px;
 }

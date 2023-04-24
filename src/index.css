@@ -56,3 +56,51 @@ code {
 .pagination button:active {
   scale: 1;
 }
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 300px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar nav {
+  display: flex;
+  gap: 20px;
+}
+
+.container {
+  width: 65%;
+  margin: 60px auto;
+}
+
+.movie-page-img {
+  width: 100%;
+}
+
+.search {
+  position: absolute;
+  display: block;
+  width: 300px;
+  right: 0;
+  left: 0;
+  top: 20px;
+  margin: 0 auto;
+}
+
+.search input {
+  padding: 5px 0;
+}
+.search button {
+  padding: 5px 0;
+}
+
+.no-movies-found {
+  margin: 300px auto;
+  width: 300px;
+}

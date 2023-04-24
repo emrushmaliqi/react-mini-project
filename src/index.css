@@ -1,13 +1,58 @@
+* {
+  margin: 0;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.card-img {
+  width: 100%;
+  cursor: pointer;
+  transition: 300ms;
+}
+
+.card-img:hover {
+  scale: 1.05;
+}
+
+.movies-container {
+  margin: 50px 100px;
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.pagination button {
+  width: 30px;
+  font-size: 20px;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  transition: 50ms;
+}
+
+.pagination button:hover {
+  scale: 1.15;
+}
+
+.pagination button:active {
+  scale: 1;
 }

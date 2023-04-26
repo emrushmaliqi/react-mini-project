@@ -119,3 +119,20 @@ a {
   text-align: center;
   margin-bottom: 50px;
 }
+
+.back-btn {
+  float: right;
+  background-color: #dedede;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.back-btn:hover {
+  background-color: #cdcdcd;
+}
+
+.back-btn:active {
+  background-color: #bababa;
+}

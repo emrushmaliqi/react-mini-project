@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import axios from "axios";
 
 function MoviePage() {
@@ -37,6 +37,9 @@ function MoviePage() {
           <strong>
             Genres: {movieData.genres.map(genre => genre.name).join(", ")}
           </strong>
+          <Link to="/movies" className="back-btn">
+            Go Back
+          </Link>
         </div>
       )}
     </>
